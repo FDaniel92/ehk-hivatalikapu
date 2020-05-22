@@ -1,13 +1,13 @@
 <template>
-  <div class="infobox">
-      <div class="infobox__image"></div>
-      <h2>
-        {{infoboxTitle}}
-      </h2>
-      <p>
-        {{infoboxParagraph}}
-      </p>
-  </div>
+    <section class="infobox">
+        <div class="infobox__image"></div>
+        <h2>
+          {{infoboxTitle}}
+        </h2>
+        <p>
+          {{infoboxParagraph}}
+        </p>
+    </section>
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -23,6 +23,11 @@
        display: inline-block;
        vertical-align: top;
        border: 1px solid black;
+       position: relative;
+       top: -150px;
+       &:nth-child(even) {
+         margin: 0 30px;
+       }
        &__image {
            width: 120px;
            height: 120px;

@@ -60,7 +60,6 @@ export default {
         &__burger-menu {
             width: 40px;
             height: auto;
-            background: yellow;
             position: relative;
             z-index: 11;
 
@@ -71,7 +70,7 @@ export default {
                     background: transparent;
 
                     &:after {
-                        transition: top 0.4s, transform 0.5s 0.5s;
+                        transition: top 0.5s, transform 0.5s 0.5s;
                         top: 0px;
                         transform: rotateZ(45deg);
                     }
@@ -83,6 +82,8 @@ export default {
                     }
                 }
             }
+
+            @media (min-width: $lg-devices) {display: none;}
 
             .burger-menu-icon {
                 height: 3px;
@@ -96,7 +97,7 @@ export default {
                 &:before{
                     left: 0;
                     position: absolute;
-                    top: -20px;
+                    top: -10px;
                     height: 3px;
                     width: 40px;
                     background-color: white;
@@ -107,7 +108,7 @@ export default {
                 &:after{
                     left: 0;
                     position: absolute;
-                    top: 20px;
+                    top: 10px;
                     height: 3px;
                     width: 40px;
                     background-color: white;
@@ -116,41 +117,12 @@ export default {
                     transition: transform 0.5s, top 0.5s 0.5s;
                 }
             }
-            // span {
-            //     position: absolute;
-            //     width: 40px;
-            //     height: 3px;
-            //     background: $color-2;
-            //     transition: 0.3s ease-in-out;
-
-            //     &:first-child {
-            //         top: 10px;
-            //         transition: transform 0.5s 0.5s, top 0.5s;
-            //         &.closed {
-            //             top: 20px;
-            //             transform: rotate(-45deg);
-            //         }
-            //     }
-            //     &:nth-child(2) {
-            //         top: 20px;
-            //         opacity: 1;
-            //         &.closed {opacity: 0;}
-            //     }
-            //     &:nth-child(3) {
-            //         top: 30px;
-            //          transition: transform 0.5s 0.5s, top 0.5s;
-            //          &.closed {
-            //             top: 20px;
-            //             transform: rotate(45deg);
-            //         }
-            //     }
-            // }
         }
 
         &__main-title {
             color: $color-1;
             text-align: center;
-            padding-top: 60px;
+            padding: 60px 30px;
 
             h1 {
                 font-size: $md-font-size;
