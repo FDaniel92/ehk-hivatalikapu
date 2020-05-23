@@ -1,0 +1,21 @@
+@import "./src/assets/styles/template/variables/_variables.scss";
+.container-header {
+    background: $color-3;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -70px;
+    h2 {
+        font-size: $md-font-size;
+    }
+    hr {
+        width: 40px;
+        height: 4px;
+        background: $color-2;
+        margin: 20px auto;
+    }
+}

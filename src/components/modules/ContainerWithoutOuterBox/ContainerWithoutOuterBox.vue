@@ -31,23 +31,5 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-@import "./src/assets/styles/template/variables/_variables.scss";
-   .text-container {
-       width: 1200px;
-       margin: 0 auto 50px auto;
-       h2 {
-           font-size: $md-font-size;
-       }
-       hr {
-           width: 40px;
-           height: 4px;
-           background: $color-2;
-           margin: 20px 0;
-       }
-       &__left-txt {
-           width: 100%;
-           max-width: 800px;
-           margin-right: auto;
-       }
-   }
+@import './ContainerWithoutOuterBox.scss';
 </style>

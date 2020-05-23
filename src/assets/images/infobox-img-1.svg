@@ -10,10 +10,43 @@
 	.st4{fill:#FFFFFF;stroke:#AA885F;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st5{fill:#AA885F;}
 </style>
-<path class="st0" d="M60,94c10,0,27-21.3,27-26.6s0-28.5,0-34.9S75,24,60,24s-27,2.1-27,8.5s0,29.6,0,34.9S50,94,60,94z"/>
-<circle class="st0" cx="60" cy="45.2" r="9.6"/>
-<path class="st0" d="M71,57.6c-3.7,0-4.6,2.7-11,2.7s-7.3-2.7-11-2.7s-5.5,9.2-5.5,9.2C49,73.1,56.3,74,60,74s11-0.9,16.5-7.3
-	C76.5,66.7,74.6,57.6,71,57.6z"/>
-<circle class="st0" cx="80.9" cy="80" r="16"/>
-<polyline class="st0" points="73,81.7 78,86.7 90.7,74 "/>
+<g>
+	<polygon class="st1" points="72,97.1 24,97.1 24,27.9 72,28.1 	"/>
+	<g>
+		<rect x="31" y="70" class="st1" width="6" height="6"/>
+		<line class="st1" x1="42" y1="70" x2="66" y2="70"/>
+		<line class="st1" x1="42" y1="74" x2="66" y2="74"/>
+	</g>
+	<g>
+		<rect x="31" y="58" class="st1" width="6" height="6"/>
+		<line class="st1" x1="42" y1="58" x2="66" y2="58"/>
+		<line class="st1" x1="42" y1="62" x2="66" y2="62"/>
+	</g>
+	<g>
+		<rect x="31" y="82" class="st1" width="6" height="6"/>
+		<line class="st1" x1="42" y1="82" x2="66" y2="82"/>
+		<line class="st1" x1="42" y1="86" x2="66" y2="86"/>
+	</g>
+	<circle class="st1" cx="38" cy="38" r="4"/>
+	<path class="st1" d="M45,50c0-3.9-3.1-7-7-7s-7,3.1-7,7H45z"/>
+</g>
+<polygon class="st1" points="99,91.1 51,91.1 51,21.9 99,22.1 "/>
+<g>
+	<rect x="58" y="63.9" transform="matrix(4.410641e-03 -1 1 4.410641e-03 -6.2043 127.6404)" class="st1" width="6" height="6"/>
+	<line class="st1" x1="69" y1="64" x2="93" y2="64"/>
+	<line class="st1" x1="69" y1="68" x2="86" y2="68"/>
+</g>
+<g>
+	<rect x="58" y="52" class="st1" width="6" height="6"/>
+	<line class="st1" x1="69" y1="52" x2="93" y2="52"/>
+	<line class="st1" x1="69" y1="56" x2="86" y2="56"/>
+</g>
+<g>
+	<rect x="58" y="76" class="st1" width="6" height="6"/>
+	<line class="st1" x1="69" y1="76" x2="93" y2="76"/>
+	<line class="st1" x1="69" y1="80" x2="86" y2="80"/>
+</g>
+<polyline class="st2" points="92,23 92,43 86.5,38.7 81,43 81,23 "/>
+<circle class="st1" cx="65" cy="32" r="4"/>
+<path class="st1" d="M72,44c0-3.9-3.1-7-7-7s-7,3.1-7,7H72z"/>
 </svg>
