@@ -1,9 +1,11 @@
 @import "./src/assets/styles/template/variables/_variables.scss";
 .text-container {
-    width: 1200px;
+    width: 1170px;
     margin: 0 auto 50px auto;
     h2 {
         font-size: $md-font-size;
+        font-family: $play-fair;
+
     }
     hr {
         width: 40px;
@@ -15,5 +17,6 @@
         width: 100%;
         max-width: 800px;
         margin-right: auto;
+        font-family: $source-sans;
     }
 }

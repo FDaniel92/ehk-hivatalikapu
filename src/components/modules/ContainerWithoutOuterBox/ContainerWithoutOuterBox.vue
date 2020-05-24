@@ -1,5 +1,5 @@
 <template>
-    <section class="text-container">
+    <section class="text-container" id="jbk">
         <h2>
             Mi az a JBK?
         </h2>

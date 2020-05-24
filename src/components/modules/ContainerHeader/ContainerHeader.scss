@@ -1,20 +1,25 @@
 @import "./src/assets/styles/template/variables/_variables.scss";
 .container-header {
     background: $color-3;
-    padding: 20px;
+    padding: 90px 200px 110px 200px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1170px;
     margin: 0 auto;
     color: white;
     text-align: center;
     position: relative;
-    top: -70px;
+    top: -120px;
+    font-family: $source-sans;
+    &.footer-header {
+        background: black;
+    }
     h2 {
         font-size: $md-font-size;
+        font-family: $play-fair;
     }
     hr {
         width: 40px;
-        height: 4px;
+        height: 2px;
         background: $color-2;
         margin: 20px auto;
     }
