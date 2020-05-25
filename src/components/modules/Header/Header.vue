@@ -3,10 +3,10 @@
     <section class="navigation__container">
         <img src="@/assets/images/EHK_logo.svg" alt="EHK logó" class="navigation__logo" />
         <ul class="navigation__list-container" v-bind:class="{ open: isActive }">
-            <li class="navigation__list-item" v-scroll-to="'#jbk'">JBK</li>
-            <li class="navigation__list-item" v-scroll-to="'#advantages'">A rendszer előnyei</li>
-            <li class="navigation__list-item" v-scroll-to="'#modules'">Modulok</li>
-            <li class="navigation__list-item" v-scroll-to="'#connect'">Kapcsolat</li>
+            <li class="navigation__list-item" v-scroll-to="'#jbk'" @click="isActive = !isActive">JBK</li>
+            <li class="navigation__list-item" v-scroll-to="'#advantages'" @click="isActive = !isActive">A rendszer előnyei</li>
+            <li class="navigation__list-item" v-scroll-to="'#modules'" @click="isActive = !isActive">Modulok</li>
+            <li class="navigation__list-item" v-scroll-to="'#connect'" @click="isActive = !isActive">Kapcsolat</li>
         </ul>
         
         <div class="navigation__burger-menu" v-on:click="toggleBurgerMenu" v-bind:class="{ open: isActive }">

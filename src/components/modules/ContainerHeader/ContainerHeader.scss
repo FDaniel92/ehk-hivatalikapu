@@ -1,26 +1,36 @@
 @import "./src/assets/styles/template/variables/_variables.scss";
 .container-header {
-    background: $color-3;
-    padding: 90px 200px 110px 200px;
+    background: $color-6;
+    padding: 40px;
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
     color: white;
     text-align: center;
     position: relative;
-    top: -120px;
+    top: -90px;
     font-family: $source-sans;
-    &.footer-header {
-        background: black;
+    border-radius: 4px;
+
+    @media (min-width: $lg-devices) {
+        padding: 90px 200px 110px 200px;
     }
+
     h2 {
         font-size: $md-font-size;
         font-family: $play-fair;
+        @media (min-width: $lg-devices) {
+            font-size: 45px;
+        }
     }
     hr {
-        width: 40px;
+        width: 100px;
         height: 2px;
         background: $color-2;
         margin: 20px auto;
+    }
+    p {
+        font-size: 18px;
+        line-height: 25px;
     }
 }

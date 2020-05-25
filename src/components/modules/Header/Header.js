@@ -1,12 +1,12 @@
 export default {
     data: function() {
         return {
-        isActive: false
+            isActive: false
         };
     },
     methods: {
         toggleBurgerMenu: function() {
-        this.isActive = !this.isActive;
+            this.isActive = !this.isActive;
         }
     }
 };

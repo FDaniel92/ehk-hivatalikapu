@@ -1,5 +1,5 @@
 <template>
-    <section class="outer-text-container">
+    <section class="footer-container">
         <ContainerHeader class="footer-header" ContainerHeaderTitle="Szakértői támogatás" id="connect" ContainerHeaderParagraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis malesuada viverra. Nullam odio risus, ultricies lacinia nibh id, laoreet interdum justo." />
     </section>
 </template>

@@ -7,6 +7,7 @@
         <p>
           {{infoboxParagraph}}
         </p>
+        <a v-if="urlSrc !== undefined" :href="set_href_url(urlSrc)" target='_blank'>Bővebben</a>
     </section>
 </template>
 

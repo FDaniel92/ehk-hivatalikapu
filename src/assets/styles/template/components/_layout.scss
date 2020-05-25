@@ -1,6 +1,27 @@
+@import "./src/assets/styles/template/variables/_variables.scss";
 .container {
-    width: 1170px;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
+    @media (min-width: $lg-devices) {
+        width: 1170px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .main-image {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 70px auto;
+    }
+}
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .row {
     display: flex;
@@ -12,4 +33,10 @@
 }
 .justify-centered {
     justify-content: center;
+}
+.sm-column {
+    @media (max-width: $md-devices) {
+        display: flex;
+        flex-direction: column;
+    }
 }
