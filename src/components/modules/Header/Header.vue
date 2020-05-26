@@ -3,10 +3,10 @@
     <section class="navigation__container">
         <img src="@/assets/images/EHK_logo.svg" alt="EHK logó" class="navigation__logo" />
         <ul class="navigation__list-container" v-bind:class="{ open: isActive }">
-            <li class="navigation__list-item" v-scroll-to="'#jbk'" @click="isActive = !isActive">JBK</li>
-            <li class="navigation__list-item" v-scroll-to="'#advantages'" @click="isActive = !isActive">A rendszer előnyei</li>
-            <li class="navigation__list-item" v-scroll-to="'#modules'" @click="isActive = !isActive">Modulok</li>
-            <li class="navigation__list-item" v-scroll-to="'#connect'" @click="isActive = !isActive">Kapcsolat</li>
+            <li class="navigation__list-item" v-scroll-to="'#advantages'" @click="isActive = !isActive">ELŐNYÖK</li>
+            <li class="navigation__list-item" v-scroll-to="'#interface'" @click="isActive = !isActive">GÉPI INTERFACE</li>
+            <li class="navigation__list-item" v-scroll-to="'#system-operation'" @click="isActive = !isActive">A RENDSZER MŰKÖDÉSE</li>
+            <li class="navigation__list-item" v-scroll-to="'#connect'" @click="isActive = !isActive">KAPCSOLAT</li>
         </ul>
         
         <div class="navigation__burger-menu" v-on:click="toggleBurgerMenu" v-bind:class="{ open: isActive }">
@@ -14,15 +14,7 @@
         </div>
     </section>
 
-    <section class="navigation__main-title">
-        <h1>
-            Jogi behajtási keretrendszer
-        </h1>
-        <hr>
-        <p>
-            Fizetési meghagyások, peres és végrehajtási ügyek széleskörű nyilvántartása, nyomon követése
-        </p>
-    </section>
+     <ContainerHeader class="navigation__header" ContainerHeaderTitle="e-Hivatali Kapu" ContainerHeaderParagraph="GYORS, PONTOS ÉS HITELES KAPCSOLATTARTÁS AZ ÜGYFELEKKEL" />
   </nav>
 </template>
 

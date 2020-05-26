@@ -12,7 +12,7 @@
         display: block;
         width: 100%;
         height: auto;
-        margin: 70px auto;
+        margin: 0 auto 70px 0;
     }
 }
 .centered {
@@ -36,6 +36,12 @@
 }
 .sm-column {
     @media (max-width: $md-devices) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.md-column {
+    @media (max-width: $lg-devices) {
         display: flex;
         flex-direction: column;
     }

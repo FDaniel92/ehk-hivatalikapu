@@ -10,10 +10,22 @@
 	.st4{fill:#FFFFFF;stroke:#AA885F;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st5{fill:#AA885F;}
 </style>
-<path class="st0" d="M60,94c10,0,27-21.3,27-26.6s0-28.5,0-34.9S75,24,60,24s-27,2.1-27,8.5s0,29.6,0,34.9S50,94,60,94z"/>
-<circle class="st0" cx="60" cy="45.2" r="9.6"/>
-<path class="st0" d="M71,57.6c-3.7,0-4.6,2.7-11,2.7s-7.3-2.7-11-2.7s-5.5,9.2-5.5,9.2C49,73.1,56.3,74,60,74s11-0.9,16.5-7.3
-	C76.5,66.7,74.6,57.6,71,57.6z"/>
-<circle class="st0" cx="80.9" cy="80" r="16"/>
-<polyline class="st0" points="73,81.7 78,86.7 90.7,74 "/>
+<g>
+	<rect x="45" y="53" class="st0" width="32" height="17"/>
+	<polygon class="st0" points="77,70 61,58.5 45,70 	"/>
+	<polygon class="st0" points="77,53 61,64.3 45,53 	"/>
+</g>
+<g>
+	<rect x="96" y="57" class="st0" width="20" height="11"/>
+	<polygon class="st0" points="116,68 106,60.6 96,68 	"/>
+	<polygon class="st0" points="116,57 106,64.3 96,57 	"/>
+</g>
+<g>
+	<rect x="5" y="57" class="st0" width="20" height="11"/>
+	<polygon class="st0" points="25,68 15,60.6 5,68 	"/>
+	<polygon class="st0" points="25,57 15,64.3 5,57 	"/>
+</g>
+<path class="st3" d="M80.6,41.4c-11-11-28.9-11-40,0c-9.9,9.9-10.9,25.2-3.1,36.2l-22,22c-1.5,1.5-1.5,3.9,0,5.3l1.6,1.6
+	c1.5,1.5,3.9,1.5,5.3,0l22-22c11,7.8,26.3,6.7,36.2-3.1C91.6,70.4,91.6,52.5,80.6,41.4z M76.4,77.2c-8.7,8.7-22.9,8.7-31.7,0
+	c-8.7-8.7-8.7-22.9,0-31.7c8.7-8.7,22.9-8.7,31.7,0C85.2,54.3,85.2,68.5,76.4,77.2z"/>
 </svg>
