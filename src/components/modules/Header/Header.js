@@ -1,13 +1,26 @@
-import ContainerHeader from '@/components/modules/ContainerHeader/ContainerHeader.vue';
-
 export default {
-    name: 'App',
-    components: {
-        ContainerHeader
-    },
+    name: 'Header',
     data: function() {
         return {
-            isActive: false
+            isActive: false,
+            listItems: [
+                {
+                    name: 'Előnyök',
+                    scrollTo: '#advantages'
+                },
+                {
+                    name: 'Gépi interface',
+                    scrollTo: '#interface'
+                },
+                {
+                    name: 'A rendszer működése',
+                    scrollTo: '#system-operation'
+                },
+                {
+                    name: 'Kapcsolat',
+                    scrollTo: '#connect'
+                }
+            ]
         };
     },
     methods: {

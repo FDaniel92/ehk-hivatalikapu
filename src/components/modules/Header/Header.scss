@@ -1,14 +1,16 @@
 @import "./src/assets/styles/template/variables/_variables.scss";
 .navigation {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px 20px 20px;
+    position: absolute;
+    top: 0;
     width: 100%;
-    height: 560px;
-    position: relative;
-    background: url("~@/assets/images/header-bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
 
-    @media (min-width: $lg-devices) {height: 680px;}
+    @media (min-width: $lg-devices) {
+        align-items: center;
+        padding: 20px;
+    }
 
     &__burger-menu {
         width: 40px;
@@ -75,19 +77,8 @@
         }
     }
 
-    &__container {
-        display: flex;
-        flex-direction: row;
-        padding: 20px 30px 20px 20px;
-
-        @media (min-width: $lg-devices) {
-            align-items: center;
-            padding: 20px;
-        }
-    }
-
     &__logo {
-       display: flex;
+        display: flex;
         flex-direction: row;
         width: 100px;
         height: 43px;
@@ -110,13 +101,16 @@
         overflow: hidden;
         padding: 0;
         margin: 0;
-        background: $color-7;
+        background: $color-4;
         transition: 0.5s ease-in-out;
         z-index: 10;
         font-family: $source-sans;
 
         &.open {
-            height: 100%;
+            height: 100vh;
+            @media (min-width: $lg-devices) { 
+                height: 100%;
+            }
         }
 
         @media (min-width: $lg-devices) {
@@ -134,7 +128,7 @@
 
     &__list-item {
         color: $color-1;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         text-transform: uppercase;
         cursor: pointer;
         transition: 0.2s ease-in-out;

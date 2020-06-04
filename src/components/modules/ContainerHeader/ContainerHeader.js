@@ -1,5 +1,5 @@
 export default {
-    name: 'InfoBox',
+    name: 'ContainerHeader',
     props: {
         ContainerHeaderTitle: String,
         ContainerHeaderParagraph: String

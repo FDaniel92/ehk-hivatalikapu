@@ -41,7 +41,7 @@
     }
 }
 .md-column {
-    @media (max-width: $lg-devices) {
+    @media (max-width: 991px) {
         display: flex;
         flex-direction: column;
     }

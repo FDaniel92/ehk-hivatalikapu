@@ -2,6 +2,8 @@
   <div id="app">
 
     <Header />
+
+    <ContainerHeader class="navigation-header" ContainerHeaderTitle="e-Hivatali Kapu" ContainerHeaderParagraph="GYORS, PONTOS ÉS HITELES KAPCSOLATTARTÁS AZ ÜGYFELEKKEL" />
     
     <div class="container md-column row justify-centered">
       <InfoBox pictureSrc="infobox-img-1.svg" pictureAlt="leírás a képhez" id="advantages" infoboxTitle="Hitelesített üzenetek" infoboxParagraph="A hivatali tárhelyen keresztül hitelesített és tértivevényes üzenetek küldhetőek ügyfélkapu és cégkapu fiókokba, így a postai küldemények száma nagymértékben lecsökkenthető." />
@@ -10,7 +12,9 @@
     </div>
     
     <div class="container-outerbox">
-      <ContainerHeader ContainerHeaderTitle="Gépi interface előnyei" id="interface" ContainerHeaderParagraph="Hivatali tárhelyéhez ingyenesen igényelhető gépi interface kapcsolat, ami az EHK szolgáltatással kiegészülve az alábbi lehetőségeket nyitja megszervezete számára az elektronikus ügyintézési térben:" />
+        <div class="container">
+          <ContainerHeader ContainerHeaderTitle="Gépi interface előnyei" id="interface" ContainerHeaderParagraph="Hivatali tárhelyéhez ingyenesen igényelhető gépi interface kapcsolat, ami az EHK szolgáltatással kiegészülve az alábbi lehetőségeket nyitja megszervezete számára az elektronikus ügyintézési térben:" />
+        </div>
         <div class="container md-column row justify-centered">
             <InfoBox pictureSrc="infobox-img-4.svg" pictureAlt="leírás a képhez" infoboxTitle="Állami nyilvántartások" infoboxParagraph="Adatlekérések állami adatbázisokból - pl. személyi adat- és lakcímnyilvántartás. Az ügyfélkapu tulajdonosát a Központi Azonosítási Ügynök (KAÜ) azonosítja be." />
             <InfoBox pictureSrc="infobox-img-5.svg" pictureAlt="leírás a képhez" infoboxTitle="Tematizált üzenetek" infoboxParagraph="Az e-Papír és iForm űrlapok rendszeresítésével a beérkező ügyfélüzenetek feldolgozása szabályozott és automatizálható. Elektronikus szerződéskötési és módosítási folyamatok." />
