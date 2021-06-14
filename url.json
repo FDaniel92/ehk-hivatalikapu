@@ -1,0 +1,15 @@
+{
+    "development": {
+        "backend": "http://tst-ehk.ejogseged.intra/:8001",
+        "frontend": "http://tst-ehk.ejogseged.intra"
+    },
+    "staging": {
+        "backend": "http://tst-ehk.ejogseged.intra/:8001",
+        "frontend": "http://tst-ehk.ejogseged.intra"
+    },
+    "production": {
+        "backend": "/",
+        "frontend": "https://www.e-hivatalikapu.hu"
+    }
+}
+

@@ -1,0 +1,144 @@
+body {
+  background: #f5f5f5;
+}
+h2 {
+  font-family: PlayFairDisplay;
+  font-weight: normal;
+}
+p,
+a,
+span {
+  font-family: SourceSansPro;
+  &.footer-menu-title {
+    font-family: PlayFairDisplayBold;
+  }
+}
+.container-outerbox {
+  h1 {
+    font-family: PlayFairDisplayBold;
+  }
+}
+.infobox {
+  h2 {
+    font-family: PlayFairDisplayBold;
+  }
+}
+.centered {
+  h2 {
+    font-family: PlayFairDisplayBold;
+  }
+}
+.without-bg {
+  h2 {
+    font-family: PlayFairDisplayBold;
+  }
+}
+.hide {
+  visibility: hidden;
+}
+.header-navigation {
+  .carousel-block {
+    &.one {
+      background-image: url("~@/assets/images/header-bg.jpg");
+    }
+  }
+}
+#app.ehk {
+  .container-outerbox {
+    background: #004534;
+  }
+}
+.container-outerbox {
+  width: 100%;
+  margin: 150px 0 0 0;
+  position: relative;
+  .infobox {
+    top: -145px;
+    @media (min-width: 992px) {
+      top: -175px;
+    }
+  }
+}
+.container-fluid {
+  width: 100%;
+  background: white;
+  padding: 70px 0;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  @media (min-width: 1200px) {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .main-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.lefted {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  hr {
+    margin: 30px 0 !important;
+    text-align: left;
+  }
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.justify-centered {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+.sm-column {
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.md-column {
+  @media (max-width: 991px) {
+    display: flex;
+    flex-direction: column !important;
+  }
+}
+.lg-column {
+  @media (max-width: 992px) {
+    display: flex;
+    flex-direction: column;
+    &.lg-column-centered {
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+    }
+  }
+}
+.footer-container {
+  margin: 0 !important;
+}
